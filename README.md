@@ -1,12 +1,30 @@
 # Convolution neural network
 
-1. Introduction video
-   https://www.youtube.com/watch?v=iaSUYvmCekI
+1. Introduksjonsvideo
 
-1. CNN resources
+   - https://www.youtube.com/watch?v=iaSUYvmCekI
 
-- https://www.cs.ryerson.ca/~aharley/vis/conv/flat.html
+1. CNN ressurser
 
-- https://poloclub.github.io/cnn-explainer/
+   - https://www.cs.ryerson.ca/~aharley/vis/conv/flat.html
+
+   - https://poloclub.github.io/cnn-explainer/
 
 1. Google Colab
+
+   - cnn.ipynb
+
+1. Spørsmål
+
+   - Hva gjør disse lagene:
+
+     - MaxPooling
+     - Conv2D / Conv3D
+
+   - Hva betyr disse begrepene:
+
+     - Filter
+     - Stride
+     - Kernel size
+
+   - Hvordan kan man håndtere bilder med ulike størrelser?
