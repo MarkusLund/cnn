@@ -1,30 +1,44 @@
 # Convolution neural network
 
-1. Introduksjonsvideo
+NB! Husk å ta nok pauser og snakk med hverandre når dere først er samlet! 😄 Skulle veldig gjerne vært der sammen med dere!
 
-   - https://www.youtube.com/watch?v=iaSUYvmCekI
+1. Introduksjonsvideo + diskusjon underveis og etter ( 08.30 )
 
-1. CNN ressurser
+   - Se [MIT 6.S191 (2020): Convolutional Neural Networks](https://www.youtube.com/watch?v=iaSUYvmCekI)
+     - Stopp video hver gang det dukker opp spørsmål eller noe det er ønskelig å diskutere.
 
-   - https://www.cs.ryerson.ca/~aharley/vis/conv/flat.html
+1. 15 min (is)pause 🍦
 
-   - https://poloclub.github.io/cnn-explainer/
+1. Learning by doing (Husk å ta pauser underveis!)
 
-1. Google Colab
+   - Har modifisert en [Google Colab](./cnn.ipynb) som ligger her i repoet. Åpne den i Google Colab for å kjøre.
 
-   - cnn.ipynb
+   - Ressurser
+
+     - https://www.cs.ryerson.ca/~aharley/vis/conv/flat.html
+
+       - Grafisk fremstilling av noder i CNN(for å prediketere tall) som aktiveres ved ulike tall man selv tegner.
+
+     - https://poloclub.github.io/cnn-explainer/
+
+     - Veldig fin interaktiv bloggpost om hvordan CNNs fungerer. Kan leses i sin helhet og diskuteres i plenum, eller brukes som oppslagsverk.
 
 1. Spørsmål
 
-   - Hva gjør disse lagene:
+   - Forklar disse begrepene:
 
      - MaxPooling
      - Conv2D / Conv3D
-
-   - Hva betyr disse begrepene:
-
      - Filter
      - Stride
      - Kernel size
 
+   - Hvorfor fungerer CNNs bedre enn vanlig feed-forward nettverk når det kommer til bilder?
+
    - Hvordan kan man håndtere bilder med ulike størrelser?
+
+   - Hvorfor benytter vi oss av pooling-lag?
+
+   - Finnes det alternativer til MaxPooling, hvilke?
+
+   - Kan CNNs brukes til andre problemer enn bildegjenkjenning? Hvilke? Hvordan?
